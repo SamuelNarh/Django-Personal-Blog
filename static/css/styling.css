@@ -92,3 +92,15 @@ text-decoration: none;
 a:hover{
     color: #0011f8;
 }
+
+@media (min-width:600px)
+{
+    body{background-color: rgb(173, 166, 166);
+    }
+}
+
+@media(max-width:599px){
+    body{
+        background-color:green;
+    }
+}
